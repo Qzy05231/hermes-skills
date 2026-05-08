@@ -3,9 +3,9 @@ name: kol-profile-builder
 description: 为加密KOL一键生成结构化用户画像。从X/Twitter资料、推文内容和社区声誉中提取身份标签、影响力数据、关注领域、核心观点、内容风格和可靠度评估。
 version: 1.0.0
 author: Hermes Agent
-prerequisites:
-  skills: [xurl, xclaw]
-  env_vars: [XCLAW_API_KEY]
+prerequisites: {}
+# 本技能不强制依赖任何外部工具
+# 数据采集支持三种方式：浏览器 / xurl / xclaw（任选其一即可）
 metadata:
   hermes:
     tags: [kol, twitter, crypto, analysis, profile]
